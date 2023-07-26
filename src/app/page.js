@@ -10,6 +10,12 @@ export default function Home() {
       <Navbar />
       <EQbeatsIQ />
       <BeBestYou />
+      <EQbeatsIQ />
+      <BeBestYou />
+      <EQbeatsIQ />
+      <BeBestYou />
+      <EQbeatsIQ />
+      <BeBestYou />
       <Openvacancies />
       <Footer />
     </>

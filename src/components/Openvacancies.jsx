@@ -28,7 +28,8 @@ const OpenVacancies = () => {
     <section className="mt-20 py-8 px-24 h-96">
       <motion.div
         initial="hidden"
-        animate="visible"
+        whileInView="visible"
+        viewport={{ once: true }}
         variants={{
           hidden: { x: "-30%", y: "50%", opacity: 0 }, 
           visible: {
