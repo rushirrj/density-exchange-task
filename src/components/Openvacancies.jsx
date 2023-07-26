@@ -31,13 +31,13 @@ const OpenVacancies = () => {
         whileInView="visible"
         viewport={{ once: true }}
         variants={{
-          hidden: { x: "-30%", y: "50%", opacity: 0 }, 
+          hidden: { x: "-30%", y: "50%", opacity: 0 },
           visible: {
             x: 0,
             y: 0,
             opacity: 1,
             transition: { ease: "easeInOut", duration: 1.5 },
-          }, 
+          },
         }}
         style={{
           width: "100%", // Adjust the width as needed
@@ -65,7 +65,7 @@ const HoverCard = ({ vac, index }) => {
         key={index}
         onHoverStart={() => setButtonVisible(true)}
         onHoverEnd={() => setButtonVisible(false)}
-        transition={{ ease: "easeInOut", duration: 0.5 }}
+        transition={{ ease: "easeInOut", duration: 0.3 }}
         className="bg-[#fefbec] rounded-lg"
       >
         <div className="rounded-2xl  p-6 px-12">
@@ -81,12 +81,12 @@ const HoverCard = ({ vac, index }) => {
           <motion.button
             initial="hidden"
             whileInView="visible"
-            transition={{ ease: "easeInOut", duration: 1 }}
+            transition={{ ease: "easeInOut", duration: 0.5, delay: 0.1 }}
             variants={{
               visible: { opacity: 1, scale: 1 },
-              hidden: { opacity: 0 , scale: 0.7 },
+              hidden: { opacity: 0, scale: 0.7 },
             }}
-            className="mx-10 cursor-pointer text-white bg-black rounded-full px-3 py-2"
+            className="mx-10 cursor-pointer text-white bg-black rounded-full px-3 py-2 mt-4"
           >
             Click Me
           </motion.button>
