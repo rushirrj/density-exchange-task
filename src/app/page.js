@@ -15,14 +15,14 @@ export default function Home() {
   return (
     <>
       <Navbar />
-      <EQbeatsIQ />
       <MasterLife/>
+      <EQbeatsIQ />
       <DoesThisSoundFamiliar />
       <MeetAheadCard/>
+      <SelfImprovement/>
       <BeBestYou />
       <EverWonder />
       <Test />
-      <SelfImprovement/>
       <WorkWithUs />
       <Openvacancies />
       <Footer />

@@ -37,3 +37,6 @@
   margin-top: 40%;
   margin-bottom: 40%;
 }
+.timeline::-webkit-scrollbar{
+  display: none;
+}

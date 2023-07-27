@@ -4,12 +4,12 @@ import React from "react";
 import Image from "next/image";
 const EverWonder = () => {
   return (
-    <section className="mt-10 rounded-3xl bg-blue-50 p-10 mx-24">
+    <section className="mt-16 mb-32 rounded-3xl bg-blue-50 p-10 mx-24">
       <motion.div
         initial="hidden"
         whileInView="visible"
         viewport={{ once: true }}
-        transition={{ duration: 0.5 }}
+        transition={{ duration: 0.8 }}
         variants={{
           visible: { opacity: 1, scale: 1, x: 0, y: 0 },
           hidden: { opacity: 0, scale: 0.5 },
@@ -24,8 +24,8 @@ const EverWonder = () => {
         </h1>
       </motion.div>
       <div className="mt-8 flex justify-center relative">
-        <div className="absolute top-[1.25rem] w-[780px] text-transparent border-t border-yellow-700 h-4 border-dashed">
-          Dummy
+        <div className="absolute top-[1.5rem] w-[780px] text-transparent border-t border-yellow-700 h-4 border-dashed">
+          
         </div>
         <div className="flex justify-evenly w-[70rem] z-[10]">
           <div className="flex flex-col justify-center">
@@ -65,6 +65,8 @@ const EverWonder = () => {
           </div>
         </div>
       </div>
+
+
       <div className="flex justify-center">
         <div className="mt-16 shadow bg-white rounded-xl w-[50rem] p-6 py-24 relative">
           <div className="flex justify-between ">
@@ -77,6 +79,7 @@ const EverWonder = () => {
                   duration: 1,
                   staggerChildren: 0.2,
                   delayChildren: 0.3,
+                  
                 }}
                 variants={{
                   visible: { opacity: 1, scale: 1, x: 0, y: 0 },
@@ -93,7 +96,7 @@ const EverWonder = () => {
                 initial="hidden"
                 whileInView="visible"
                 viewport={{ once: true }}
-                transition={{ duration: 0.5 }}
+                transition={{ duration: 0.8,delay:0.4  }}
                 variants={{
                   visible: { opacity: 1, scale: 1, x: 0, y: 0 },
                   hidden: { opacity: 0.5, scale: 0.5 },
@@ -109,7 +112,7 @@ const EverWonder = () => {
                 initial="hidden"
                 whileInView="visible"
                 viewport={{ once: true }}
-                transition={{ duration: 0.5 }}
+                transition={{ duration: 0.8,delay:0.4  }}
                 variants={{
                   visible: { opacity: 1, scale: 1, x: 0, y: 0 },
                   hidden: { opacity: 0.5, scale: 0.5 },
@@ -125,7 +128,7 @@ const EverWonder = () => {
                 initial="hidden"
                 whileInView="visible"
                 viewport={{ once: true }}
-                transition={{ duration: 0.5 }}
+                transition={{ duration: 0.8,delay:0.4 }}
                 variants={{
                   visible: { opacity: 1, scale: 1, x: 0, y: 0 },
                   hidden: { opacity: 0.5, scale: 0.5 },

@@ -29,7 +29,7 @@ const DoesThisSoundsFamiliar = () => {
     }
   }, [isIntersecting]);
   return (
-    <section className="overflow-x-hidden p-4 px-20" ref={ref}>
+    <section className="overflow-x-hidden mt-12 mb-32 p-4 px-20" ref={ref}>
       <div className="flex flex-row items-center justify-between">
         <motion.div
           className="inline-block"
@@ -48,7 +48,7 @@ const DoesThisSoundsFamiliar = () => {
         </motion.div>
         <motion.div
           viewport={{ once: true }}
-          transition={{ duration: 1.9, ease: "easeInOut", type: "spring" }}
+          transition={{ duration: 2.1, ease: "easeInOut", type: "spring",delay:0.3 }}
           intial="hidden"
           whileInView="visible"
           variants={{
@@ -79,7 +79,7 @@ const DoesThisSoundsFamiliar = () => {
         </div>
 
         <div className="rounded-xl bg-blue-300 min-w-[350px]  p-6 flex flex-col gap-4 hover:scale-110 hover:-rotate-12 hover:duration-300  ease-in-out">
-          <Image width={70} height={70} alt="" src="/angry-e.png" />
+          <Image width={70} height={70} alt="" src="/angry-emoji.svg" />
           <h3 className="font-bold text-lg text-white">
             You get a prmotion at work
           </h3>
@@ -90,7 +90,7 @@ const DoesThisSoundsFamiliar = () => {
         </div>
 
         <div className="rounded-xl bg-yellow-200 min-w-[350px]  p-6 flex flex-col gap-4 hover:scale-110 hover:-rotate-12 hover:duration-300  ease-in-out">
-          <Image width={70} height={70} alt="" src="/angry-e.png" />
+        <Image width={70} height={70} alt="" src="/angry-emoji.svg" />
           <h3 className="font-bold text-lg ">You attend a class reunion</h3>
           <p className="text-gray-700">
             You compare yourelf with your peers' your self judgement more
@@ -99,7 +99,7 @@ const DoesThisSoundsFamiliar = () => {
         </div>
 
         <div className=" rounded-xl bg-violet-600 min-w-[350px]  p-6 flex flex-col gap-4 hover:scale-110 hover:-rotate-12 hover:duration-300 ease-in-out">
-          <Image width={70} height={70} alt="" src="/angry-e.png" />
+        <Image width={70} height={70} alt="" src="/angry-emoji.svg" />
           <h3 className="font-bold text-lg ">
             You are at a lively dinner party
           </h3>
@@ -110,7 +110,7 @@ const DoesThisSoundsFamiliar = () => {
         </div>
 
         <div className="rounded-xl bg-blue-100 min-w-[350px]  p-6 flex flex-col gap-4 hover:scale-110 hover:-rotate-12 hover:duration-300 ease-in-out">
-          <Image width={70} height={70} alt="" src="/angry-e.png" />
+        <Image width={70} height={70} alt="" src="/angry-emoji.svg" />
           <h3 className="font-bold text-lg ">
             You hit dead end in a negotiation
           </h3>
@@ -121,7 +121,7 @@ const DoesThisSoundsFamiliar = () => {
         </div>
 
         <div className="rounded-xl bg-purple-200 min-w-[350px]  p-6 flex flex-col gap-4 hover:scale-110 hover:-rotate-12 hover:duration-300 ease-in-out">
-          <Image width={70} height={70} alt="" src="/angry-e.png" />
+        <Image width={70} height={70} alt="" src="/angry-emoji.svg" />
           <h3 className="font-bold text-lg">You argue with a colleague</h3>
           <p className="text-gray-700">
             You get angry and defensive,instead of staying open and working
@@ -129,7 +129,7 @@ const DoesThisSoundsFamiliar = () => {
           </p>
         </div>
         <div className="rounded-xl bg-violet-600 min-w-[350px]  p-6 flex flex-col gap-4 hover:scale-110 hover:-rotate-12 hover:duration-300 ease-in-out">
-          <Image width={70} height={70} alt="" src="/angry-e.png" />
+        <Image width={70} height={70} alt="" src="/angry-emoji.svg" />
           <h3 className="font-bold text-lg ">
             You are at a lively dinner party
           </h3>
@@ -140,7 +140,7 @@ const DoesThisSoundsFamiliar = () => {
         </div>
 
         <div className="rounded-xl bg-blue-100 min-w-[350px]  p-6 flex flex-col gap-4 hover:scale-110 hover:-rotate-12 hover:duration-300 ease-in-out">
-          <Image width={70} height={70} alt="" src="/angry-e.png" />
+        <Image width={70} height={70} alt="" src="/angry-emoji.svg" />
           <h3 className="font-bold text-lg ">
             You hit dead end in a negotiation
           </h3>

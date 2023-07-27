@@ -4,7 +4,7 @@ import { motion } from "framer-motion";
 
 const MeetAheadCard = () => {
   return (
-    <div className="px-20 relative">
+    <div className="px-20 relative mt-7 mb-32">
       <div
         style={{ height: "450px" }}
         className="bg-bgPeach overflow-hidden relative flex rounded-lg"
@@ -54,8 +54,9 @@ const MeetAheadCard = () => {
           }}
           transition={{
             type: "tween", 
-            duration: 0.8, 
+            duration: 1.2, 
             ease: "easeInOut",
+            delay:0.3
           }}
           className="bg-darkPeach h-60 w-60 absolute rounded-full"
           style={{ bottom: "-16px", right: "650px" }}
@@ -69,7 +70,7 @@ const MeetAheadCard = () => {
           variants={{
             visible: {
               x: [0, 10],
-              y: [55, -5],
+              y: [55, -25],
               rotate: 25,
             },
             hidden: { y: 55 },
@@ -81,8 +82,9 @@ const MeetAheadCard = () => {
           }}
           transition={{
             type: "tween",
-            duration: 0.8,
+            duration: 1.2,
             ease: "easeInOut",
+            delay:0.6
           }}
           className="h-28 w-24 absolute"
           style={{ right: "60%", top: "20%", transform: "translate(50%,50%)" }}
@@ -132,7 +134,13 @@ const MeetAheadCard = () => {
       {/* flower div */}
       <motion.div
         whileInView="visible"
-        animate={{ rotate: 360 }}
+        viewport={{ once: true }}
+        initial="hidden"
+        variants={{
+              visible: { opacity: 1,rotate:360 },
+              hidden: {  opacity: 1 },
+        }}
+  
         transition={{
           loop: Infinity, 
           ease: "linear",

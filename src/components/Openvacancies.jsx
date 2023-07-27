@@ -66,7 +66,7 @@ const HoverCard = ({ vac, index }) => {
         onHoverStart={() => setButtonVisible(true)}
         onHoverEnd={() => setButtonVisible(false)}
         transition={{ ease: "easeInOut", duration: 0.3 }}
-        className="bg-[#fefbec] rounded-lg"
+        className="bg-[#fefbec] rounded-lg hover:bg-[#ece7d1] hover:cursor-pointer"
       >
         <div className="rounded-2xl  p-6 px-12">
           <h2 className="text-xl font-bold">{vac.jobTitle}</h2>

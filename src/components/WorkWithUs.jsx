@@ -5,7 +5,7 @@ import Image from "next/image";
 
 const WorkWithUs = () => {
   return (
-    <div className="px-20">
+    <div className="px-20 my-32">
       <section className="mt-16 rounded-2xl bg-violet-100 p-12 px-16">
         <div className="flex  justify-between items-center text-5xl font-bold">
           <motion.div
