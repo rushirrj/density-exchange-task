@@ -93,7 +93,7 @@ const DoesThisSoundsFamiliar = () => {
         <Image width={70} height={70} alt="" src="/angry-emoji.svg" />
           <h3 className="font-bold text-lg ">You attend a class reunion</h3>
           <p className="text-gray-700">
-            You compare yourelf with your peers' your self judgement more
+            You compare yourelf with your peers your self judgement more
             indeoendent of others.
           </p>
         </div>

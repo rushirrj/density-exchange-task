@@ -7,8 +7,8 @@ const Test = () => {
       <p className="text-center">We take Privacy seriously</p>
       <p className="font-bold text-3xl">Before you get started</p>
       <p className="text-xl font-normal">
-        "We Wont share your answers with anyone.
-        <br /> (and wont tell you which friends said what about you)."
+      &quot;We Wont share your answers with anyone.
+        <br /> (and wont tell you which friends said what about you).&quot;
       </p>
       <div className="flex flex-row gap-2 items-center justify-center">
         <p className="">Made with Love...</p>

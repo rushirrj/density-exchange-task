@@ -40,7 +40,7 @@ const MasterLife = () => {
                 </div>
                 <div className='basis-1/2 flex items-center justify-center w-full'>
                     {/* <div className='flex items-center  justify-center bg-bgMobile h-60 w-60 rounded-full'> */}
-                    <div className='h-64 w-64 flex items-center '><img className='h-full w-full' src="mobile.svg" alt="" /></div>
+                    <div className='h-64 w-64 flex items-center '><Image className='h-full w-full'height={100} width={100} src="/mobile.svg" alt="" /></div>
                     {/* </div> */}
                     {/* dashed circular div */}
                     <motion.div
@@ -58,11 +58,11 @@ const MasterLife = () => {
                         }}
                         style={{ border: "3px solid white ", borderStyle: "dashed" }} className=' absolute rounded-full h-96 w-96  border-dashed border-white'>
                         {/* red ghost */}
-                        <motion.div whileInView="visible" viewport={{ once: true }} animate={{ rotate: -360 }} transition={{ type: "spring", duration: 4, bounce: 0.4 }} style={{ top: "55px" }} className='absolute h-16 w-12'><img className='h-full w-full' src="blue-ghost.png" alt="" /></motion.div>
+                        <motion.div whileInView="visible" viewport={{ once: true }} animate={{ rotate: -360 }} transition={{ type: "spring", duration: 4, bounce: 0.4 }} style={{ top: "55px" }} className='absolute h-16 w-12'><Image height={100} width={100} className='h-full w-full' src="/blue-ghost.png" alt="" /></motion.div>
                         {/* blue ghost */}
-                        <motion.div whileInView="visible" viewport={{ once: true }} animate={{ rotate: -360 }} transition={{ type: "spring", duration: 4, bounce: 0.4 }} style={{ right: "-30px", top: "50%", transform: "translate(-50%,-50%)" }} className='absolute h-16 w-14'><img className='h-full w-full' src="red-ghost.png" alt="" /></motion.div>
+                        <motion.div whileInView="visible" viewport={{ once: true }} animate={{ rotate: -360 }} transition={{ type: "spring", duration: 4, bounce: 0.4 }} style={{ right: "-30px", top: "50%", transform: "translate(-50%,-50%)" }} className='absolute h-16 w-14'><Image height={100} width={100} className='h-full w-full' src="/red-ghost.png" alt="" /></motion.div>
                         {/* voilet ghost */}
-                        <motion.div whileInView="visible" viewport={{ once: true }} animate={{ rotate: -360 }} transition={{ type: "spring", duration: 4, bounce: 0.4 }} style={{ bottom: "-22px", right: "50%" }} className='absolute h-14 w-12'><img className='h-full w-full' src="newGhost.png" alt="" /></motion.div>
+                        <motion.div whileInView="visible" viewport={{ once: true }} animate={{ rotate: -360 }} transition={{ type: "spring", duration: 4, bounce: 0.4 }} style={{ bottom: "-22px", right: "50%" }} className='absolute h-14 w-12'><Image height={100} width={100} src="/newGhost.png" alt="" /></motion.div>
                     </motion.div>
                 </div>
 
@@ -92,7 +92,7 @@ const MasterLife = () => {
                     className="h-28 w-24 absolute"
                     style={{ right: "50%", top: "40%", transform: "translate(50%,50%)" }}
                 >
-                    <img src="leaf.png" alt="" />
+                    <Image height={100} width={100} src="/leaf.png" alt="" />
                 </motion.div>
 
                 {/* small circle 1 */}

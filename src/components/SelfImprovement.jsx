@@ -38,7 +38,7 @@ const SelfImprovement = () => {
           }}
         >
           <div className="text-xl font-bold text-black">
-            Wrong with self improvement & how we're fixing it.
+            Wrong with self improvement & how we&apos;re fixing it.
           </div>
           <div className="text-6xl pb-3 font-bold text-black">
             Self Improvement. Ugh.
@@ -80,7 +80,7 @@ const SelfImprovement = () => {
                 <motion.div
                  className=" max-w-[40rem] relative align-top pl-8">
                   <div style={{left:"-12px"}} className="absolute">🟣</div>
-                  <p className="text-xl font-bold">It's not easy as 1-2-3</p>
+                  <p className="text-xl font-bold">It&apos;s not easy as 1-2-3</p>
                   <p className="mt-3">
                     The journey may be long but our sessions are quick. We get
                     to the point and tell you what you want to know (and nothing
