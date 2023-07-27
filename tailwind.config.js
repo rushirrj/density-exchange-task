@@ -16,7 +16,9 @@ module.exports = {
         transparent: 'transparent',
         bgPeach:"#FEF7F1",
         darkPeach:"#FAE8DC",
-        borderGrey:"#F6F6F6"
+        borderGrey:"#F6F6F6",
+        bgBlue:"#EEEBFE",
+        bgMobile:"#DBD3F8"
       },
     },
 

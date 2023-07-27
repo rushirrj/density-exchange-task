@@ -20,7 +20,7 @@ const MeetAheadCard = () => {
           </div>
         </div>
         <div className="basis-1/2 flex items-center">
-          <div className="flex flex-col gap-3 w-4/5">
+          <div className="flex flex-col gap-12 w-4/5  items-center">
             <div>
               <p className="text-lg">
                 A personalized pocket coach that provide
@@ -28,7 +28,7 @@ const MeetAheadCard = () => {
               </p>
             </div>
             <div>
-              <p>
+              <p  className="text-lg">
                 Think of it as a pocket cheerleader towards a better, more
                 fulfilling.
               </p>
