@@ -4,11 +4,11 @@ import { motion } from "framer-motion";
 const Test = () => {
   return (
     <section className="mt-20 flex flex-col gap-3 text-center p-8">
-      <p className="">We take Privacy seriously</p>
+      <p className="text-center">We take Privacy seriously</p>
       <p className="font-bold text-3xl">Before you get started</p>
-      <p className="text-2xl font-normal">
-        "Lorem ipsum dolor sit amet, consectetur adipisicing elit.
-        <br /> Odio optio assumenda earum quo odit corporis."
+      <p className="text-xl font-normal">
+        "We Wont share your answers with anyone.
+        <br /> (and wont tell you which friends said what about you)."
       </p>
       <div className="flex flex-row gap-2 items-center justify-center">
         <p className="">Made with Love...</p>
@@ -24,8 +24,7 @@ const Test = () => {
               opacity: [0,0,0,0.5,1],
               x: [0,0,2.5,3,2.7,0],
               transition: {
-                duration: 0.5,
-              },
+                duration: 1.3},
             },
           }}
           height="70"
@@ -72,7 +71,7 @@ const Test = () => {
             width: "100%", // Adjust the width as needed
             overflow: "hidden", // Hide overflowing text while sliding
           }}
-          className="pt-6"
+          className="pt-3"
         >
           <button className="rounded-3xl p-4 px-6 text-white bg-black">
             Start Test
