@@ -1,10 +1,25 @@
 "use client";
 import React from "react";
 import Image from "next/image";
-import Fade from 'react-reveal/Fade';
+import Fade from 'react-awesome-reveal';
 import { useAnimation, motion } from "framer-motion";
 import { useInView } from "react-intersection-observer";
+import Reveal from "react-awesome-reveal";
+import { keyframes } from "@emotion/react";
 
+const customAnimation = keyframes`
+  from {
+    opacity: 0.1;
+    // transform: translate3d(-200px, -100px, 0);
+    transform: translate2d( -50px, 0);
+    transparent:0;
+  }
+
+  to {
+    opacity: 1;
+    transform: translate2d( 0, 0);
+  }
+`;
 const SelfImprovement = () => {
 
   
@@ -57,7 +72,7 @@ const SelfImprovement = () => {
 
       <div className="timeline px-20 pt-14 h-96 overflow-y-scroll">
         <div className="border-l-2 border-l-violet-300   flex  flex-col gap-16">
-          <Fade top cascade>
+          <Reveal keyframes={customAnimation}>
           {[...Array(8)].map((val, index) => {
             return (
               <div key={index}
@@ -75,7 +90,7 @@ const SelfImprovement = () => {
               </div>
             );
           })}
-          </Fade>
+          </Reveal>
         </div>
       </div>
     </section>

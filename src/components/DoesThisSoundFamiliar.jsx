@@ -70,7 +70,7 @@ const DoesThisSoundsFamiliar = () => {
         ref={boxContainerRef}
       >
         <div className="rounded-xl bg-purple-200 min-w-[350px]  p-6 flex flex-col gap-4 hover:scale-110 hover:-rotate-12 hover:duration-300 ease-in-out">
-          <Image width={70} height={70} alt="" src="/angry-e.png" />
+          <Image width={70} height={70} alt="" src="/angry-emoji.png" />
           <h3 className="font-bold text-lg">You argue with a colleague</h3>
           <p className="text-gray-700">
             You get angry and defensive,instead of staying open and working
