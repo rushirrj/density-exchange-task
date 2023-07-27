@@ -48,7 +48,7 @@ const WorkWithUs = () => {
                   hidden: { opacity: 0, scale: 0.5, rotate: 0 },
                 }}
               >
-                <Image width={60} height={60} alt="" src="/ghost.svg" />
+                <Image width={60} height={60} alt="" src="/ghost.png" />
               </motion.div>
               <div className="flex flex-col gap-3 p-4">
                 <h2 className="font-bold">About</h2>

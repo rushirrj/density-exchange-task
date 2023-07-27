@@ -7,11 +7,13 @@ import BeBestYou from "../components/BeBestYou";
 import Test from "../components/Test";
 import WorkWithUs from "../components/WorkWithUs";
 import MeetAheadCard from "@/components/MeetAheadCard";
+import DoesThisSoundFamiliar from "../components/DoesThisSoundFamiliar";
 export default function Home() {
   return (
     <>
       <Navbar />
       <EQbeatsIQ />
+      <DoesThisSoundFamiliar />
       <MeetAheadCard/>
       <BeBestYou />
       <Test />
